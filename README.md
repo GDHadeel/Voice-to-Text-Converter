@@ -29,7 +29,7 @@ https://github.com/GDHadeel/Voice-to-Text-Converter/assets/126657301/44e70678-59
 
 2. **Web Interface Setup:**
 
-   - Place `index.html` and `save_text.php` in your web server's directory.
+   - Place [`index.html`](https://github.com/GDHadeel/Voice-to-Text-Converter/blob/main/index.html) and [`save_text.php`](https://github.com/GDHadeel/Voice-to-Text-Converter/blob/main/save_text.php) in your web server's directory.
 
 3. **Configuration:**
 
