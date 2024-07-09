@@ -44,7 +44,7 @@ https://github.com/GDHadeel/Voice-to-Text-Converter/assets/126657301/44e70678-59
 
 ## Code Explanation
 
-### HTML ([`index.html`](https://github.com/GDHadeel/Voice-to-Text-Converter/blob/main/index.html)
+### HTML ([`index.html`](https://github.com/GDHadeel/Voice-to-Text-Converter/blob/main/index.html))
 - Provides the structure and content for a webpage titled "Voice to Text Converter".
 - Includes a button (`#start-btn`) to initiate speech recognition and a paragraph (`#result`) to display the recognized text.
 
