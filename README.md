@@ -37,7 +37,7 @@ https://github.com/GDHadeel/Voice-to-Text-Converter/assets/126657301/44e70678-59
 
 ## Usage
 
-1. Open [`index.html`](https://github.com/GDHadeel/Voice-to-Text-Converter/blob/main/index.html in a supported web browser.
+1. Open [`index.html`](https://github.com/GDHadeel/Voice-to-Text-Converter/blob/main/index.html) in a supported web browser.
 2. Click the "Start Recording" button to initiate speech recognition.
 3. Speak into your microphone clearly and audibly.
 4. The transcribed text will appear in the display area and be saved automatically to the `transcript` table in the `robot` database.
