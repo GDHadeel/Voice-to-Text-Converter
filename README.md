@@ -33,18 +33,18 @@ https://github.com/GDHadeel/Voice-to-Text-Converter/assets/126657301/44e70678-59
 
 3. **Configuration:**
 
-   - Edit `save_text.php` to configure your MySQL database connection parameters (`$servername`, `$username`, `$password`, `$dbname`).
+   - Edit [`save_text.php`](https://github.com/GDHadeel/Voice-to-Text-Converter/blob/main/save_text.php) to configure your MySQL database connection parameters (`$servername`, `$username`, `$password`, `$dbname`).
 
 ## Usage
 
-1. Open `index.html` in a supported web browser.
+1. Open [`index.html`](https://github.com/GDHadeel/Voice-to-Text-Converter/blob/main/index.html in a supported web browser.
 2. Click the "Start Recording" button to initiate speech recognition.
 3. Speak into your microphone clearly and audibly.
 4. The transcribed text will appear in the display area and be saved automatically to the `transcript` table in the `robot` database.
 
 ## Code Explanation
 
-### HTML (`index.html`)
+### HTML ([`index.html`](https://github.com/GDHadeel/Voice-to-Text-Converter/blob/main/index.html)
 - Provides the structure and content for a webpage titled "Voice to Text Converter".
 - Includes a button (`#start-btn`) to initiate speech recognition and a paragraph (`#result`) to display the recognized text.
 
@@ -56,7 +56,7 @@ https://github.com/GDHadeel/Voice-to-Text-Converter/assets/126657301/44e70678-59
 - Handles user interaction by starting and stopping recognition upon button click (`#start-btn`).
 - Sends recognized text to `saveTextToDatabase` function for database storage using XMLHttpRequest.
 
-### PHP (`save_text.php`)
+### PHP ([`save_text.php`](https://github.com/GDHadeel/Voice-to-Text-Converter/blob/main/save_text.php))
 - Receives POST requests with a transcript parameter.
 - Establishes a connection to a MySQL database (`robot`) on localhost.
 - Sanitizes and inserts transcript data into the `transcript` table.
