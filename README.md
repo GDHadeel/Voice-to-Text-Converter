@@ -1,6 +1,6 @@
 # Voice-to-Text-Converter
 
-# Task 4: Building a User Interface for Voice-to-Text Conversion
+# Task 4: Build a user interface to convert voice to text & Save the text output to the database
 
 ## Description
 This project is a web-based application that allows users to convert spoken language into written text and store it in a MySQL database. This project provides a simple yet effective way to capture spoken input and save it for further use or analysis.
